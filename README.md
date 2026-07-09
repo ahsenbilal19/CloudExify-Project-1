@@ -7,7 +7,7 @@ A beautiful, responsive static portfolio website built with plain HTML5, CSS3 an
 - **Name:** Ahsen Bilal
 - **Registration Number:** CX-INT-2026-GEN-0208
 - **Project:** Frontend Professional Project 1 — Personal Portfolio Website
-- **Repository Name:** cloudexify-web-p1-ahsenbilal
+- **Repository Name:** CloudExify-Project-1
 - **Build Track:** Glass & Gradient
 - **Deployment:** Vercel
 
@@ -96,5 +96,5 @@ Open `index.html` directly in your browser, or use the VS Code Live Server exten
 ## WhatsApp Submission Message
 
 ```text
-[CX-INT-2026-GEN-0208] Web Project 1 Done — GitHub: https://github.com/ahsenbilal19/cloudexify-web-p1-ahsenbilal | Live: https://cloudexify-web-p1-ahsenbilal.vercel.app
+[CX-INT-2026-GEN-0208] Web Project 1 Done — GitHub: https://github.com/ahsenbilal19/CloudExify-Project-1 | Live: https://cloudexify-web-p1-ahsenbilal.vercel.app
 ```
