@@ -381,8 +381,10 @@ html[data-theme="light"] .site-header.scrolled {
 }
 
 .hero h1 {
-  max-width: 780px;
-  font-size: clamp(2.7rem, 9vw, 5.8rem);
+  max-width: 760px;
+  font-size: clamp(2.1rem, 6.5vw, 4.35rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
 }
 
 .hero h1 span,
@@ -394,13 +396,17 @@ html[data-theme="light"] .site-header.scrolled {
 }
 
 .hero h1 strong {
-  min-height: 1.1em;
+  min-height: 1.15em;
   display: inline-block;
+  font-size: clamp(1.35rem, 4vw, 2.65rem);
+  line-height: 1.18;
+  margin-top: 6px;
 }
 
 .cursor {
   color: var(--accent) !important;
   background: none !important;
+  font-size: clamp(1.35rem, 4vw, 2.65rem);
   animation: blink 0.8s infinite;
 }
 
@@ -491,7 +497,7 @@ html[data-theme="light"] .site-header.scrolled {
 }
 
 .hero-card {
-  padding: 28px;
+  padding: 24px 22px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -508,52 +514,53 @@ html[data-theme="light"] .site-header.scrolled {
 }
 
 .profile-ring {
-  width: 132px;
-  height: 132px;
-  margin: 0 auto 20px;
+  width: 112px;
+  height: 112px;
+  margin: 0 auto 16px;
   display: grid;
   place-items: center;
-  border-radius: 34px;
+  border-radius: 30px;
   background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.22), rgba(168, 85, 247, 0.22));
   border: 1px solid var(--card-border);
 }
 
 .profile-ring img {
-  width: 98px;
-  border-radius: 28px;
+  width: 82px;
+  border-radius: 24px;
 }
 
 .hero-card h2 {
-  font-size: 1.25rem;
-  margin-bottom: 8px;
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 6px;
 }
 
 .hero-card p {
   color: var(--muted);
-  line-height: 1.6;
-  font-size: 0.88rem;
-  max-width: 280px;
+  line-height: 1.45;
+  font-size: 0.72rem;
+  max-width: 220px;
   margin: 0 auto;
 }
 
 .mini-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  margin-top: 24px;
+  gap: 8px;
+  margin-top: 20px;
 }
 
 .mini-stats div {
-  padding: 14px 8px;
+  padding: 12px 6px;
   border: 1px solid var(--card-border);
-  border-radius: 18px;
+  border-radius: 16px;
   background: rgba(255,255,255,0.04);
 }
 
 .mini-stats strong {
   display: block;
   color: var(--accent);
-  font-size: 1.35rem;
+  font-size: 1.12rem;
 }
 
 .mini-stats span {
@@ -1006,6 +1013,15 @@ textarea {
 
   .hero {
     padding-top: calc(var(--header-h) + 28px);
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 13vw, 3.2rem);
+  }
+
+  .hero h1 strong,
+  .cursor {
+    font-size: clamp(1.25rem, 8vw, 2rem);
   }
 
   .mini-stats {
