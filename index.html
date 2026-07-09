@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ahsen Bilal — Frontend Developer, MERN Stack Developer, QA Engineer, and Data Analyst portfolio." />
+  <meta name="author" content="Ahsen Bilal" />
+  <title>Ahsen Bilal | Portfolio</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader" aria-hidden="true">
+    <div class="loader-card">
+      <span class="loader-logo">AB</span>
+      <span class="loader-line"></span>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#hero" aria-label="Ahsen Bilal home">
+        <img src="assets/logo.svg" alt="" />
+        <span>Ahsen<span>Bilal</span></span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme">
+          <span class="theme-icon">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+        <span class="grid-glow"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Frontend Professional Project 1</p>
+          <h1>Hi, I'm <span>Ahsen Bilal</span><br><strong id="typedText"></strong><span class="cursor">|</span></h1>
+          <p class="hero-text">
+            I build clean, responsive and user-focused web interfaces using HTML, CSS, JavaScript, React, Tailwind and modern frontend practices.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="assets/resume.pdf" download>Download CV</a>
+          </div>
+
+          <div class="hero-meta" aria-label="Contact summary">
+            <a href="mailto:ranacnco17@gmail.com">ranacnco17@gmail.com</a>
+            <span>Wah Cantt, Pakistan</span>
+          </div>
+        </div>
+
+        <aside class="hero-card glass-card reveal" aria-label="Profile highlights">
+          <div class="profile-ring">
+            <img src="assets/logo.svg" alt="Ahsen Bilal initials logo" />
+          </div>
+          <h2>Software Engineer</h2>
+          <p>Frontend Developer · MERN Stack Developer · QA Engineer · Data Analyst</p>
+          <div class="mini-stats">
+            <div><strong>8+</strong><span>Projects</span></div>
+            <div><strong>5</strong><span>Domains</span></div>
+            <div><strong>2025</strong><span>Internships</span></div>
+          </div>
+          <div class="accent-picker" aria-label="Accent color picker">
+            <button type="button" data-accent="#00d4ff" aria-label="Blue accent"></button>
+            <button type="button" data-accent="#a855f7" aria-label="Purple accent"></button>
+            <button type="button" data-accent="#22c55e" aria-label="Green accent"></button>
+            <button type="button" data-accent="#fb7185" aria-label="Rose accent"></button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Building useful digital products with design, code and testing discipline.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            I am a BS Computer Science student at SZABIST Islamabad with experience across frontend development, MERN stack, QA testing, data analytics and creative design. My work style is simple: understand the user, build responsive interfaces, test carefully and keep improving the product.
+          </p>
+          <p>
+            From web internships to freelance design and analytics dashboards, I enjoy connecting clean UI, reliable functionality and meaningful data to create better digital experiences.
+          </p>
+          <div class="about-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span><span>QA Testing</span><span>Power BI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>My technical toolkit</h2>
+          <p>Skill bars animate once when this section comes into view.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card glass-card reveal">
+            <h3>Frontend</h3>
+            <div class="skill" data-percent="92"><p><span>HTML5 / CSS3</span><strong>92%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="86"><p><span>JavaScript</span><strong>86%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="82"><p><span>React.js</span><strong>82%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="78"><p><span>Tailwind CSS</span><strong>78%</strong></p><div class="bar"><div class="fill"></div></div></div>
+          </div>
+
+          <div class="skill-card glass-card reveal">
+            <h3>Backend & Database</h3>
+            <div class="skill" data-percent="76"><p><span>Node.js / Express</span><strong>76%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="74"><p><span>MongoDB / MySQL</span><strong>74%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="68"><p><span>PHP</span><strong>68%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="65"><p><span>Firebase</span><strong>65%</strong></p><div class="bar"><div class="fill"></div></div></div>
+          </div>
+
+          <div class="skill-card glass-card reveal">
+            <h3>QA & Data</h3>
+            <div class="skill" data-percent="84"><p><span>Manual Testing</span><strong>84%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="75"><p><span>Postman / Selenium</span><strong>75%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="78"><p><span>Python / Pandas</span><strong>78%</strong></p><div class="bar"><div class="fill"></div></div></div>
+            <div class="skill" data-percent="73"><p><span>Power BI / Tableau</span><strong>73%</strong></p><div class="bar"><div class="fill"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+          <p>Use the live filter buttons to view projects by technology area.</p>
+        </div>
+
+        <div class="filter-row reveal" aria-label="Project filters">
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="frontend">Frontend</button>
+          <button type="button" class="filter-btn" data-filter="fullstack">Full Stack</button>
+          <button type="button" class="filter-btn" data-filter="data">Data</button>
+          <button type="button" class="filter-btn" data-filter="qa">QA</button>
+          <button type="button" class="filter-btn" data-filter="creative">Creative</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card glass-card reveal" data-tags="fullstack,frontend,qa">
+            <div class="project-icon">🏠</div>
+            <p class="project-type">FYP · MERN / MySQL</p>
+            <h3>Smart Rental Platform</h3>
+            <p>A rental marketplace with secure authentication, owner/renter roles, multi-category listings, bookings, reviews, trust monitoring, recommendations and featured listings.</p>
+            <div class="tech-list"><span>React</span><span>Node</span><span>Express</span><span>MySQL</span></div>
+          </article>
+
+          <article class="project-card glass-card reveal" data-tags="frontend,qa">
+            <div class="project-icon">🎵</div>
+            <p class="project-type">React.js · JavaScript</p>
+            <h3>Music Player Application</h3>
+            <p>A full-featured music player with playback controls, playlist management and structured test cases for core functionality.</p>
+            <div class="tech-list"><span>React</span><span>JavaScript</span><span>Testing</span></div>
+          </article>
+
+          <article class="project-card glass-card reveal" data-tags="data,fullstack">
+            <div class="project-icon">🍽️</div>
+            <p class="project-type">MySQL · SQL</p>
+            <h3>Food Store Database System</h3>
+            <p>A normalized relational database for inventory tracking, order records and automated reporting workflows.</p>
+            <div class="tech-list"><span>MySQL</span><span>SQL</span><span>Database</span></div>
+          </article>
+
+          <article class="project-card glass-card reveal" data-tags="frontend,creative">
+            <div class="project-icon">🛒</div>
+            <p class="project-type">Shopify · JavaScript</p>
+            <h3>eCommerce Storefront</h3>
+            <p>A complete Shopify storefront with product management, order tracking and social media campaign support.</p>
+            <div class="tech-list"><span>Shopify</span><span>JavaScript</span><span>UI</span></div>
+          </article>
+
+          <article class="project-card glass-card reveal" data-tags="data">
+            <div class="project-icon">📊</div>
+            <p class="project-type">Power BI · Tableau · Python</p>
+            <h3>Analytics Dashboard</h3>
+            <p>Interactive dashboards visualizing sales KPIs using Pandas for data preparation and SQL for MySQL data extraction.</p>
+            <div class="tech-list"><span>Power BI</span><span>Tableau</span><span>Python</span></div>
+          </article>
+
+          <article class="project-card glass-card reveal" data-tags="creative">
+            <div class="project-icon">🎨</div>
+            <p class="project-type">Figma · Canva</p>
+            <h3>Logo Design Portfolio</h3>
+            <p>Custom brand identities and visual systems created for freelance clients across digital and social platforms.</p>
+            <div class="tech-list"><span>Figma</span><span>Canva</span><span>Branding</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Internships and professional exposure</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item glass-card reveal">
+            <span class="timeline-date">Jul 2025 – Sep 2025</span>
+            <h3>Web Developer Intern · DeveloperHub.co</h3>
+            <p>Built responsive web pages with HTML5, CSS3, JavaScript, Tailwind CSS and PHP while supporting testing and sprint delivery.</p>
+          </article>
+          <article class="timeline-item glass-card reveal">
+            <span class="timeline-date">May 2025 – Jul 2025</span>
+            <h3>Frontend Developer Intern · YoungDev Interns</h3>
+            <p>Developed reusable React components, validated REST APIs in Postman and improved responsiveness for desktop and mobile screens.</p>
+          </article>
+          <article class="timeline-item glass-card reveal">
+            <span class="timeline-date">Jun 2025 – Aug 2025</span>
+            <h3>Data Analyst Intern · AnalytiXCamp</h3>
+            <p>Cleaned and analyzed datasets using Python, created Power BI/Tableau dashboards and queried relational data using SQL.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something clean and useful.</h2>
+          <p>Use the form below. Since this is a static frontend project, the form validates input and shows a success message without sending data to a backend.</p>
+
+          <div class="contact-cards">
+            <a class="contact-card glass-card" href="mailto:ranacnco17@gmail.com"><span>Email</span><strong>ranacnco17@gmail.com</strong></a>
+            <a class="contact-card glass-card" href="https://github.com/ahsenbilal19" target="_blank" rel="noopener"><span>GitHub</span><strong>github.com/ahsenbilal19</strong></a>
+            <a class="contact-card glass-card" href="https://www.linkedin.com/in/ahsen-bilal-362049320" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Ahsen Bilal</strong></a>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+            <small class="error-text"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+            <small class="error-text"></small>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project discussion" />
+            <small class="error-text"></small>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..."></textarea>
+            <small class="error-text"></small>
+          </div>
+          <button class="btn primary full" type="submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Ahsen Bilal. Built with HTML, CSS and JavaScript.</p>
+      <div class="footer-links">
+        <a href="https://github.com/ahsenbilal19" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ahsen-bilal-362049320" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:ranacnco17@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="easter-egg" id="easterEgg" role="status" aria-live="polite">
+    <strong>Hidden badge unlocked!</strong>
+    <span>Frontend Project Explorer 🚀</span>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
