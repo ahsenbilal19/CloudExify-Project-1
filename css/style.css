@@ -1027,3 +1027,18 @@ textarea {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* FINAL FIX: Reduce right-side homepage profile headlines */
+.hero-card h2 {
+  font-size: 1rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 6px !important;
+}
+
+.hero-card p {
+  font-size: 0.72rem !important;
+  line-height: 1.45 !important;
+  max-width: 230px !important;
+  margin: 0 auto !important;
+  color: var(--muted) !important;
+}
